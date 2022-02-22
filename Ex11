@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript Iterate Over an Array Using For Loop</title>
+</head>
+<body>
+    <script>
+    var person = {"name": "Clark", "surname": "Kent", "age": "36"};
+    for(var prop in person) {  
+        document.write("<p>" + prop + " = " + person[prop] + "</p>"); 
+    }
+    </script>
+</body>
+</html>

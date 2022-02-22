@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript ES6 Constants are Not Truly Immutable</title>
+</head>
+<body>
+    <script>
+    const PERSON = {name: "Peter", age: 28};
+    document.write(PERSON.age + "<br>");
+    PERSON.age = 30;
+    document.write(PERSON.age + "<hr>"); 
+    const COLORS = ["red", "green", "blue"];
+    document.write(COLORS[0] + "<br>");
+    COLORS[0] = "yellow";
+    document.write(COLORS[0]);
+    </script>
+</body>
+</html>
